@@ -1,0 +1,4 @@
+interface:
+  display_name: "Prepared Mind"
+  short_description: "Become the kind of person who has good ideas"
+  default_prompt: "What should I learn to start a startup later?"

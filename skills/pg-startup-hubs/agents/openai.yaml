@@ -1,0 +1,4 @@
+interface:
+  display_name: "Startup Hubs"
+  short_description: "Where to locate and how hubs form"
+  default_prompt: "Should I move to Silicon Valley for my startup?"

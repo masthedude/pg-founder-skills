@@ -1,0 +1,38 @@
+{
+  "name": "pg-founder-skills",
+  "version": "1.0.0",
+  "description": "Nine unofficial skills distilled from Paul Graham's startup essays: finding and validating ideas, deciding whether to start, founder qualities, running an early startup, fundraising, startup hubs, and YC history.",
+  "author": {
+    "name": "Masoud Moghaddari",
+    "url": "https://github.com/masthedude"
+  },
+  "homepage": "https://github.com/masthedude/pg-founder-skills",
+  "repository": "https://github.com/masthedude/pg-founder-skills",
+  "license": "MIT",
+  "keywords": [
+    "startups",
+    "paul-graham",
+    "startup-ideas",
+    "founders",
+    "fundraising",
+    "y-combinator",
+    "skills"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "PG Founder Skills",
+    "shortDescription": "Paul Graham's startup advice, applied to your situation",
+    "longDescription": "Nine unofficial skills distilled from Paul Graham's startup essays. Describe your situation and the matching skill applies his advice: finding and validating startup ideas, deciding whether to start, founder qualities, running an early-stage startup, fundraising, startup hubs, and Y Combinator history. Not affiliated with Paul Graham or Y Combinator; essays are linked, not bundled.",
+    "developerName": "Masoud Moghaddari",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive"
+    ],
+    "websiteURL": "https://github.com/masthedude/pg-founder-skills",
+    "defaultPrompt": [
+      "Help me find a startup idea worth working on",
+      "Here's my startup idea. Is it any good?",
+      "Should I quit my job to start a startup?"
+    ]
+  }
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Founder Qualities"
+  short_description: "What makes a good founder and cofounder"
+  default_prompt: "How do I tell if someone is a good cofounder?"

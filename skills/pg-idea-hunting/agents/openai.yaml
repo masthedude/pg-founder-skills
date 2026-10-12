@@ -1,0 +1,4 @@
+interface:
+  display_name: "Idea Hunting"
+  short_description: "Find startup ideas by noticing real problems"
+  default_prompt: "Help me find a startup idea worth working on"

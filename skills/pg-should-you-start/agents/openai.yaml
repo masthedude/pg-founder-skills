@@ -1,0 +1,4 @@
+interface:
+  display_name: "Should You Start"
+  short_description: "Decide whether and when to start a startup"
+  default_prompt: "Should I quit my job to start a startup?"

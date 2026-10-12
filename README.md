@@ -1,6 +1,6 @@
 # PG Founder Skills
 
-Nine [Claude Code](https://claude.com/claude-code) skills that turn Paul Graham's essays on startups into working advisors. Ask Claude to help you find a startup idea, critique one, decide whether to quit your job, raise a round, or get your first users, and the matching skill loads automatically.
+Nine skills for [Claude Code](https://claude.com/claude-code) and [Codex](https://openai.com/codex) that turn Paul Graham's essays on startups into working advisors. Ask your agent to help you find a startup idea, critique one, decide whether to quit your job, raise a round, or get your first users, and the matching skill loads automatically. The skills follow the open Agent Skills format, so they also work in other compatible agents.
 
 > **Unofficial.** This project is not affiliated with or endorsed by Paul Graham or Y Combinator. The essays are Paul Graham's copyright and are **not** included here. The skills contain original summaries with short attributed quotations, plus links to the essays on [paulgraham.com](https://paulgraham.com/articles.html).
 
@@ -46,6 +46,25 @@ git clone https://github.com/masthedude/pg-founder-skills.git
 cp -R pg-founder-skills/skills/pg-* ~/.claude/skills/
 ```
 
+### Codex and other agents
+
+The cross-agent [skills](https://skills.sh) installer works for Codex and most other coding agents. Run it from your project to install there, or add `-g` to install for your user:
+
+```bash
+npx skills add masthedude/pg-founder-skills -a codex -s '*'
+```
+
+Replace `codex` with another agent's name, or use `'*'` for every agent it supports.
+
+The repo is also a Codex plugin marketplace. Add it, then install the plugin from the Plugins directory in the Codex app, or with the CLI:
+
+```bash
+codex plugin marketplace add masthedude/pg-founder-skills
+codex plugin add pg-founder-skills@pg-founder
+```
+
+To install by hand instead, copy the skill folders into `~/.agents/skills/`.
+
 ### Optional: download the essays
 
 The skills work without the essay text, falling back to the links. To let them quote exact passages, download the essays for your own local use. Pick the line that matches how you installed:
@@ -54,11 +73,14 @@ The skills work without the essay text, falling back to the links. To let them q
 # plugin install
 python3 ~/.claude/plugins/cache/pg-founder/pg-founder-skills/*/scripts/fetch_essays.py
 
-# copied folders
+# copied folders, Claude Code
 python3 pg-founder-skills/scripts/fetch_essays.py ~/.claude/skills
+
+# Codex or other agents (run from a clone of this repo)
+python3 pg-founder-skills/scripts/fetch_essays.py ~/.agents/skills
 ```
 
-The script uses only the Python standard library. It fetches each listed essay from paulgraham.com, saves plain text into each skill's `references/essays/` folder, and skips files you already have. A plugin update installs into a new version folder, so run it again after updating. You can also just ask Claude to run it; each skill tells Claude where the script is.
+The script uses only the Python standard library. It fetches each listed essay from paulgraham.com, saves plain text into each skill's `references/essays/` folder, and skips files you already have. A plugin update installs into a new version folder, so run it again after updating. You can also ask your agent to run it; each skill says where the script is.
 
 ## Try it
 

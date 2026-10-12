@@ -1,0 +1,4 @@
+interface:
+  display_name: "Running an Early Startup"
+  short_description: "Launch, get first users, grow, and survive"
+  default_prompt: "We launched and growth is flat. What now?"

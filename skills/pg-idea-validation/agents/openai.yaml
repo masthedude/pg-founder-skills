@@ -1,0 +1,4 @@
+interface:
+  display_name: "Idea Validation"
+  short_description: "Test a startup idea against Paul Graham's criteria"
+  default_prompt: "Here's my startup idea. Is it any good?"

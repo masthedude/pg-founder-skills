@@ -1,0 +1,4 @@
+interface:
+  display_name: "Fundraising and Investors"
+  short_description: "Raise money and read investor behavior"
+  default_prompt: "An investor wants to keep in touch. What now?"

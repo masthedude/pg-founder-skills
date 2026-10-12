@@ -1,0 +1,20 @@
+{
+  "name": "pg-founder",
+  "interface": {
+    "displayName": "PG Founder Skills"
+  },
+  "plugins": [
+    {
+      "name": "pg-founder-skills",
+      "source": {
+        "source": "local",
+        "path": "./"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

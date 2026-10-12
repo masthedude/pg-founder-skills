@@ -1,0 +1,4 @@
+interface:
+  display_name: "YC History"
+  short_description: "How Y Combinator, Viaweb, and HN worked"
+  default_prompt: "Why does Y Combinator fund startups in batches?"
