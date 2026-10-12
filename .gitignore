@@ -1,0 +1,5 @@
+# Paul Graham's essays are copyrighted. Local copies are downloaded by
+# scripts/fetch_essays.py and must never be committed.
+skills/*/references/essays/*.txt
+.DS_Store
+__pycache__/

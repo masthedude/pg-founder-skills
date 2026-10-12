@@ -1,0 +1,31 @@
+{
+  "name": "pg-founder-skills",
+  "version": "1.0.0",
+  "description": "Nine unofficial skills distilled from Paul Graham's startup essays: finding and validating ideas, deciding whether to start, founder qualities, running an early startup, fundraising, startup hubs, and YC history.",
+  "author": {
+    "name": "Masoud Moghaddari"
+  },
+  "homepage": "https://github.com/masthedude/pg-founder-skills",
+  "repository": "https://github.com/masthedude/pg-founder-skills",
+  "license": "MIT",
+  "keywords": [
+    "startups",
+    "paul-graham",
+    "startup-ideas",
+    "founders",
+    "fundraising",
+    "y-combinator",
+    "skills"
+  ],
+  "skills": [
+    "./skills/pg-founder-qualities",
+    "./skills/pg-fundraising-investors",
+    "./skills/pg-idea-hunting",
+    "./skills/pg-idea-validation",
+    "./skills/pg-prepared-mind",
+    "./skills/pg-running-early-startup",
+    "./skills/pg-should-you-start",
+    "./skills/pg-startup-hubs",
+    "./skills/pg-yc-history"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "name": "pg-founder",
+  "description": "Unofficial Claude Code skills distilled from Paul Graham's startup essays.",
+  "owner": {
+    "name": "Masoud Moghaddari"
+  },
+  "plugins": [
+    {
+      "name": "pg-founder-skills",
+      "source": "./",
+      "description": "Nine unofficial skills distilled from Paul Graham's startup essays: finding and validating ideas, deciding whether to start, founder qualities, running an early startup, fundraising, startup hubs, and YC history.",
+      "category": "productivity",
+      "keywords": [
+        "startups",
+        "paul-graham",
+        "startup-ideas",
+        "founders",
+        "fundraising",
+        "y-combinator",
+        "skills"
+      ]
+    }
+  ]
+}
